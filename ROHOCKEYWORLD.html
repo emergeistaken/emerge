@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <!---Header-->
+    <head>
+        <title>Emerge | ROHOCKEY WORLD</title>
+        <link rel="stylesheet" href="stylesheet1.css">
+        <link rel="icon" type="image/x-icon" href="CDSnippet.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <!---Main Body-->
+
+        <div id="intro">
+            <img id="logomain" src="ROHOCKEYWORLDLogo.png" alt="Logo"> </div>
+
+        <img src="ROHOCKEYWORLDLogo.png" class="mainlogo" onclick="javascript:goToPage1()"></a>
+        <div class="allalbumtext">
+            <img src="rohockey world cover.png" class="rohockeyworld1"><a>
+                <div class="rohockeyworldtitletext1">
+                    <p1>ROHOCKEY WORLD - STANDARD</p1>
+                    </div>
+                <div class="rohockeyworld1tracklistNAMEtext">
+                        <p1>TRACKLIST:</p1>
+                </div>
+                <div class="rohockeyworld1tracklist">
+                        <p1>1. ROHOCKEY WORLD<br>2. i killed an opp<br>3. NLRH (ft. ???)<br>4. G-WAGON<br>5. the clique <br>6. TAKE OUT MY TEAM <br>7. like ginseng<br>8. ZAMBONI (Remastered)<br>9. FRAUDULENT (ft. Special Agent Bigsmoke)<br>10. ???<br>11. ???<br>12. ???<br><br>DIGITAL ALBUM WILL BE AVAILABLE VIA SOUNDCLOUD<br>BY THE 1ST FRIDAY BEFORE NLRH SEASON 3.</p1>
+                </div>
+
+        </div>
+
+        <button class="buybutton1">COMING SOON</button>
+
+        </div>
+            <div class="rohockeyworld1price">
+                <p1>FREE</p1>
+            </div>
+
+        <script>
+            function goToPage1() {
+              window.location.href="index.html";
+            }
+        </script> 
+
+<div id="myPopup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <p>ROHOCKEY WORLD - STANDARD is not yet available.</p>
+      <p>Check back by the beginning of NLRH Season 3.</p>
+    </div>
+  </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const introScreen = document.getElementById('intro');
+        const logo = document.getElementById('logomain');
+
+        function flashLogo() {
+            logo.style.opacity = (logo.style.opacity === "0" || logo.style.opacity === "") ? "1" : "0";
+        }
+
+        let flashInterval = setInterval(flashLogo, 100); // Aggressive flashing
+
+        setTimeout(function() {
+            clearInterval(flashInterval);
+            logo.classList.add('logomain-fadeout'); // Fade out when done
+            setTimeout(function(){
+                introScreen.classList.add('intro-hidden');
+                setTimeout(function(){
+                  introScreen.style.display = 'none';
+                }, 1000);
+            }, 500); // Wait for fade-out
+        }, 1500); // 1.5 seconds of flashing
+    });
+</script>
+
+<script>
+const popup = document.getElementById("myPopup");
+const triggerButtons = document.getElementsByClassName("buybutton1");
+
+for(let i = 0; i < triggerButtons.length; i++) {
+    triggerButtons[i].onclick = function() {
+        popup.style.display = "block";
+        const closeButton = document.getElementsByClassName("close")[0];
+
+        closeButton.onclick = function() {
+            popup.style.display = "none";
+        };
+    };
+}
+
+window.onclick = function(event) {
+    if (event.target === popup) {
+        popup.style.display = "none";
+    }
+};
+</script>
+
+    </body>
+<hmtl>

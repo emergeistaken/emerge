@@ -1,0 +1,412 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+
+  @font-face {
+    font-family: Swiss;
+    src: url('Swiss 911 Compressed Regular.otf');
+}
+@font-face {
+    font-family: SF;
+    src: url('SFPRODISPLAYBOLD.OTF');
+}
+
+@font-face {
+  font-family: SIM;
+  src: url('simheittf.ttf');
+}
+
+
+@media screen and (max-width: 880px) {
+.mainlogo {
+  width: 65vw;
+  position: absolute;
+  left: 7vw;
+  top: 6vw;
+  display: block;
+}
+}
+
+
+  .mainlogo {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    display: block;
+  }
+
+  .mainlogo:hover {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    display: block;
+    cursor: pointer;
+  }
+
+  .soundcloud {
+    width: 2vw;
+    position: fixed;
+    left: 0.6vw;
+    top: 48vw;
+    display: block;
+  }
+
+  .soundcloud:hover {
+    width: 2vw;
+    position: fixed;
+    left: 0.6vw;
+    top: 48vw;
+    display: block;
+    cursor: pointer;
+  }
+
+  .snippetplaytext {
+    color: white;
+    font-family: 'Swiss';
+    font-size: 1.3vw;
+    text-align: center;
+    position: absolute;
+    top: 97vw;
+    left: 40.7vw;
+    text-wrap: nowrap;
+  }
+
+  @media screen and (max-width: 880px) {
+    .digitalalbum1 {
+      width: 100%;
+      height: 9vh;
+      position: absolute;
+      left: 7vw;
+      top: 11vw;
+      display: block;
+    }
+  }
+
+  .snippetCD {
+    width: 25vw;
+    position: absolute;
+    top: 70vw;
+    left: 37vw;
+    animation: 5s linear example infinite;
+  }
+
+  .snippetCD:hover {
+    width: 25vw;
+    position: absolute;
+    top: 70vw;
+    left: 37vw;
+    cursor: pointer;
+  }
+  
+  @keyframes example {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .digitalalbum1 {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 11%;
+    display: block;
+  }
+
+  .digitalalbum1:hover {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 11%;
+    display: block;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 880px) {
+  .digitalalbum1text {
+    color: white;
+    font-family: 'Swiss';
+    font-size: 1.3vw;
+    text-align: center;
+    position: absolute;
+    top: 35.55vw;
+    left: 0vw;
+    text-wrap: nowrap;
+  }
+}
+
+  .digitalalbum1text {
+    color: white;
+    font-family: 'Swiss';
+    font-size: 1.3vw;
+    text-align: center;
+    position: absolute;
+    top: 35.55vw;
+    left: 40vw;
+    text-wrap: nowrap;
+  }
+
+  .digitalalbum2text {
+    color: white;
+    font-family: 'Swiss';
+    font-size: 1.3vw;
+    text-align: center;
+    position: absolute;
+    top: 35.55vw;
+    left: 71.35vw;
+    text-wrap: nowrap;
+  }
+
+  .digitalalbum3text {
+    color: white;
+    font-family: 'Swiss';
+    font-size: 1.3vw;
+    text-align: center;
+    position: absolute;
+    top: 35.55vw;
+    left: 9.1vw;
+    text-wrap: nowrap;
+  }
+
+  .digitalalbum1price {
+    color: white;
+    font-family: 'SIM';
+    font-size: 1.1vw;
+    text-align: center;
+    position: absolute;
+    top: 38.55vw;
+    left: 40vw;
+  }
+
+  @media screen and (max-width: 880px) {
+    .digitalalbum2 {
+      width: 100%;
+      position: absolute;
+      left: 0vw;
+      top: 50vw;
+      display: block;
+    }
+  }
+
+  .digitalalbum2 {
+    width: 23%;
+    margin-right: auto;
+    margin-left: 11%;
+    margin-top: auto;
+    display: block;
+  }
+
+  .digitalalbum2:hover {
+    width: 23%;
+    margin-right: auto;
+    margin-left: 11%;
+    margin-top: auto;
+    display: block;
+    cursor: pointer;
+  }
+
+  .digitalalbum2price {
+    color: white;
+    font-family: 'SIM';
+    font-size: 1.1vw;
+    text-align: center;
+    position: absolute;
+    top: 38.55vw;
+    left: 71.35vw;
+  }
+
+  .digitalalbum3price {
+    color: white;
+    font-family: 'SIM';
+    font-size: 1.1vw;
+    text-align: center;
+    position: absolute;
+    top: 38.55vw;
+    left: 9.1vw;
+  }
+
+  .digitalalbum3 {
+    width: 20%;
+    margin-right: auto;
+    margin-left: 9%;
+    margin-top: auto;
+    display: block;
+  }
+
+  .digitalalbum3:hover {
+    width: 20%;
+    margin-right: auto;
+    margin-left: 9%;
+    margin-top: auto;
+    display: block;
+    cursor: pointer;
+  }
+
+  .rohockeyworld1 {
+    width: 20vw;
+    margin-left: 30vw;
+    margin-top: 11vw;
+    display: block;
+  }
+
+  .rohockeyworldtitletext1 {
+    color: white;
+    font-family: 'Swiss';
+    font-size: 1.5vw;
+    text-align: center;
+    position: absolute;
+    top: 14.5vw;
+    left: 53vw;
+    text-wrap: nowrap;
+  }
+
+  .rohockeyworld1price {
+    color: white;
+    font-family: 'SIM';
+    font-size: 1.1vw;
+    text-align: center;
+    position: absolute;
+    top: 17vw;
+    left: 53vw;
+  }
+
+  .buybutton1 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 40px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Adjust font size as needed */
+    font-family: 'SIM';
+    position: absolute;
+    top: 19vw;
+    left: 53vw;
+    cursor: pointer;
+  }
+
+  .rohockeyworld1tracklistNAMEtext {
+    color: white;
+    font-family: 'Swiss';
+    font-size: 1.1vw;
+    text-align: justify;
+    position: absolute;
+    top: 22vw;
+    left: 53vw;
+  }
+
+  .rohockeyworld1tracklist {
+    color: white;
+    font-family: 'SIM';
+    font-size: 1.1vw;
+    text-align: justify;
+    position: absolute;
+    top: 24vw;
+    left: 53vw;
+  }
+
+.clearfix {
+    display: flex;
+    align-items: center;      /* Vertically center the images */
+}
+
+.allalbumtext {
+    display: flex;
+}
+
+.allalbumprice {
+    display: flex;
+}
+
+@media screen and (max-height: 881px) {
+.mobileblock {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001; /* Ensure it's on top */
+}
+}
+
+/* Intro Splash Screen */
+#intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's on top */
+  transition: transform 1s ease-in-out; /* Smooth transition */
+}
+
+#logomain {
+  width: 40vw; /* Adjust as needed */
+  opacity: 1;
+  transition: opacity 0s linear; /* No transition for flashing */
+}
+
+.logomain-fadeout {
+  opacity: 0;
+}
+
+.logomain-flash {
+  opacity: 0;
+}
+
+.intro-hidden {
+  transform: translateY(-100vh); /* Slide up */
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: "SIM"
+}
+
+.popup-content {
+  background-color: rgb(0, 0, 0);
+  border: 0.4vw solid #272727;
+  width: 30vw;
+  position: absolute;
+  top: 20vw;
+  left: 35vw;
+  color: white;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
